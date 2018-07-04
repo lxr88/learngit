@@ -15,4 +15,8 @@
 15.cat fiename:显示文件filename的内容
 16.HEAD指针：HEAD指向哪个版本号，当前版本就是谁（工作区的版本就是谁）
 17.git reflog:展示穿梭过程（后悔）
-18.git reset --hard HEAD^:
+18.touch:创建文件夹
+19.vi：进入文件编辑模式（一般模式:dd-删除光标所在行，x ：删除单个字符；插入模式：按键盘'i'；命令模式：wq/x-保存退出）
+20.git 分区：工作区、暂存区、支线库，commit的内容只是暂存区的内容，若工作区未add，那工作区的改变就不会commit
+21.当维护多个不重名的文件时（如：biji.txt和LICENSE），git的这些所有命令都可以指定文件名
+（如：git diff HEAD --biji.txt:只比较版本库中biji.txt 和工作区biji.txt的区别，忽略LICENSE的影响）
