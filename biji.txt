@@ -12,3 +12,5 @@
 12.git diff：用来显示哪些地方不一样
 13.git log: 显示用户所修改的信息（git log --pretty=oneline:美化git log的信息）。
 14.git reset --hard versionName（通过git log看到的十六进制版本号，一般前六位即可）：回退到某个时间点。
+15.git reset --hard HEAD^:
+16.git reflog:
