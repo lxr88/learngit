@@ -21,3 +21,4 @@
 21.当维护多个不重名的文件时（如：biji.txt和LICENSE），git的这些所有命令都可以指定文件名
 （如：git diff HEAD --biji.txt:只比较版本库中biji.txt 和工作区biji.txt的区别，忽略LICENSE的影响）
 22.git checkout -- biji.txt:还原仓库中的HEAD（HEAD在哪还原到哪）（慎用）
+23.git reset HEAD -- biji.txt:放弃暂存区（通过git add添加的）的内容，同时把工作区的内容也还原到HEAD状态
