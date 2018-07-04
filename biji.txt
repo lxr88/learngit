@@ -3,4 +3,12 @@
 3.rm -rf  要删除的内容：删除文件或文件夹
 4:cd  要进入的目录：改变路径
 5.mkdir 要创建的文件夹的名字 :创建文件夹
-6.git init ：创建版本库（告诉git在哪里安家，前提条件：需要用cd命令先进入要安家的目录）
+6.git config --global user.name"名字"：创建git账号
+7.git config --global user.email"邮箱"：创建邮箱账号
+8.git init ：创建版本库（告诉git在哪里安家，前提条件：需要用cd命令先进入要安家的目录）
+9.git add file1name file2name ...:把要添加/改变的文件放到台面上 
+10.git commit -m  "修改提示信息"：把要添加/改变的文件正式放入仓库 
+11.git status:用来检测当前版本和仓库中的是否一致
+12.git diff：用来显示哪些地方不一样
+13.git log: 显示用户所修改的信息（git log --pretty=oneline:美化git log的信息）。
+14.git reset --hard versionName（通过git log看到的十六进制版本号，一般前六位即可）：回退到某个时间点。
